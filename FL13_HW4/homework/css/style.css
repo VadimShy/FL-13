@@ -1,0 +1,119 @@
+@media screen and (min-width: 900px) {
+    body{
+        font-family: 'Open Sans', sans-serif;
+        line-height: 1.5;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        background-image: url('../img/home-bg.jpg');
+        background-size: cover;
+        height: 700px;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 35px 45px;
+        
+    }
+
+    header::before {
+        content: '';
+        position: absolute;
+        top: 13.5%;
+        left: 0;
+        right: 0;
+        bottom: 6.5%;
+        background-color: rgba(0,0,0,0.5);  
+        z-index: 1;
+    }
+        
+    }
+    .link-top{
+    font-size: 16px;
+    margin: 0px 30px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px;
+    }
+    .text-top-1{
+        font-size: 16px;
+        margin: 0px;
+        color: white;
+        letter-spacing: 5px;
+    }
+
+
+    .logo-top{
+        display: flex;
+        justify-content: space-around;
+        flex-direction:  row;
+        margin: 170px;
+    }
+    .heading-logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 350px 200px 100px 100px;
+        z-index: 2;
+        
+    }
+    .heading-top{
+        font-size: 60px;
+        margin: 0px;
+        letter-spacing: 2px;
+        font-weight: lighter;
+        color: white;
+    }
+    
+    .text-top-2{
+        margin: 0px;
+        color: #bfba55;
+        font-size: 15px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    .buttonDiscoverMore{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+
+    .button-top{
+        padding: 15px 20px;
+        border-radius: 20px;
+        border: 2px solid white;
+        background: white;
+        color: black;
+        text-transform: uppercase;
+    }
+
+    .section_blog_1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+        
+    }
+
+    .section_blog_right_container {
+        margin-right: 870px;
+        font-weight: bolder;
+    }
+
+    .section_blog_text {
+        margin-left: 355px;
+        margin-right: 450px;
+    }
+
+    .button-blog1{
+        padding: 15px 20px;
+        border-radius: 20px;
+        border: 1px solid #777;
+        background: white;
+        color: black;
+        
+    }
+
