@@ -1,0 +1,71 @@
+button {
+    background-color: #b3b3b3;
+    border: 1px solid #686767;
+    color: white;
+    padding: 4px 4px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+input {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 4px 4px;
+}
+
+
+#app-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    padding: 2px;
+}
+
+.user-item {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.progress-bar {
+    opacity: 0;
+    height: 30px;
+    width: 100%;
+}
+
+.progress-bar-loading {
+    height: 30px;
+    width: 100%;
+    background-color: #00ff0f;
+}
+
+.progress-bar-error {
+    height: 30px;
+    width: 100%;
+    background-color: #ff0000;
+}
+#list-container {
+    width: 100%;
+ }
+
+li, #form {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+
+    padding: 4px;
+    margin-top: 16px;
+    background: white;
+    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.5));
+}
